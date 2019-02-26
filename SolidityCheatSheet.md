@@ -1,6 +1,6 @@
 # Solidity CheatSheet
 
-# Contracts
+## Contracts
 
 #### Minimal Contract
 
@@ -15,6 +15,17 @@ contract BasicContract {
     }
 }
 ```
+
+## Visibility
+
+Functions have to be specified as being external, public, internal or private. For state variables, external is not possible.
+
+- `external`: External functions are part of the contract interface, which means they can be called from other contracts and via transactions. An external function f cannot be called internally (i.e. f() does not work, but this.f() works). External functions are sometimes more efficient when they receive large arrays of data.
+- `public`: Public functions are part of the contract interface and can be either called internally or via messages. For public state variables, an automatic getter function (see below) is generated.
+- `internal`: Those functions and state variables can only be accessed internally (i.e. from within the current contract or contracts deriving from it), without using this.
+- `private`: Private functions and state variables are only visible for the contract they are defined in and not in derived contracts.
+
+> Everything that is inside a contract is visible to all observers external to the blockchain. Making something private only prevents other contracts from accessing and modifying the information, but it will still be visible to the whole world outside of the blockchain.
 
 ## Types
 

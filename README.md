@@ -23,3 +23,9 @@ Switch to the "Ropsten Test Network", go to https://faucet.metamask.io and click
 > As you can see on the MetaMask account page, you can choose between multiple Ethereum networks. By default, MetaMask will try to connect to the main network. The other choices are public testnets, any Ethereum node of your choice, or nodes running private blockchains on your own computer.
 
 > We are going to use the "Ropsten Test Network". The ropsten network is almost the same as the main network, except that it is meant for testing. In the ropsten network Ether has no value and there's no guarantee your data will stay on the network.
+
+## Read more
+
+- [solidity docs](https://solidity.readthedocs.io/en/v0.5.0/)
+- [solidity and web3 tutorial](https://medium.com/coinmonks/solidity-and-web3-js-141115b0f8c5)
+- [solidity and web3 tutorial](https://medium.com/zeonlab-blockchain-semantic-blog/interaction-with-solidity-using-web3-5a4f1a7166f3)
