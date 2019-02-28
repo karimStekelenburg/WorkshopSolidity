@@ -1,5 +1,7 @@
 # Solidity Workshop
 
+0x5dc7215450987eb9c0f39a6b5180677e6a19015b
+
 ## Installing prerequisites
 
 ### Getting started with MetaMask
